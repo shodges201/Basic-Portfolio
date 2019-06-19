@@ -90,6 +90,7 @@ body{
     width: 200px;
     background-image: url("../images/placeholder_gorilla.jpg");
     margin-left: 30px;
+    margin-top: 10px;
 }
 
 .imageTextOverlay{
@@ -112,4 +113,34 @@ body{
     width: 200px;
     background-image: url("../images/placeholder_puppy.jpg");
     margin-right: 480px;
+    margin-top: 10px;
 }
+
+#TriviaGame{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/placeholder_bar.jpg");
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#widget{
+    float:right;
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/placeholder_turnTable.jpg");
+    margin-right: 480px;
+    margin-top: 30px;
+}
+
+#RPS{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/placeholder_bar.jpg");
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
