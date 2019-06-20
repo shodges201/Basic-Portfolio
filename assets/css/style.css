@@ -1,6 +1,26 @@
-body{ 
+html{
+    height: 100%;
+} 
+body {
+    display: flex;
+    flex-direction: column;
     background: #dddddd;
-}
+    min-height: 100vh;
+  }
+
+  .footer {
+    flex-shrink: 0;
+    background-color: gray;
+    color: #dddddd;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+ }
+
+ .footerText{
+    font-size: 9px;
+    margin-bottom: 0px;
+    margin-top:20px;
+ }
 
 .header_area{
     background: #ffffff;
@@ -11,7 +31,6 @@ body{
     width: 960px;
     margin: auto;
 }
-
 
 .name_header{ 
     color: white;
@@ -114,6 +133,10 @@ body{
     background-image: url("../images/placeholder_puppy.jpg");
     margin-right: 480px;
     margin-top: 10px;
+}
+.tile:hover{
+    box-shadow: 3px 3px #777777;
+    opacity: .5;
 }
 
 #TriviaGame{
